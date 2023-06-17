@@ -6,7 +6,7 @@ deciders: {list everyone involved in the decision}
 consulted: {list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication}
 informed: {list everyone who is kept up-to-date on progress; and with whom there is a one-way communication}
 ---
-# Iteración 1 - Taller 1: Construcción de una arquitectura básica
+# Eventos - Iteración 1 - Taller 1: Construcción de una arquitectura básica
 
 ## Context and Problem Statement
 
@@ -18,9 +18,16 @@ datos SQL.
 <!-- This is an optional element. Feel free to remove. -->
 ## Decision Drivers
 
-* {decision driver 1, e.g., a force, facing concern, …}
-* {decision driver 2, e.g., a force, facing concern, …}
-* … <!-- numbers of drivers can vary -->
+* Captura de información iot.
+* Almacenamiento de información capturada por los sensores.
+* Visualización en tiempo real del proceso productivo y ordenes de trabajo.
+* Administración de ordenes por operario y máquina.
+* Administración de inventario.
+* Configuración de secuencia entre tipología de sensores.
+* Algoritmo para optimización de volúmen de ordenes de trabajo.
+* Algoritmo para prediccion de fallos en líneas de producción y asignación de recursos de otras líneas.
+* Mecanismos de notificación de eventos con interfáz configurable.
+* Considerar dispositivo de operario fuera de servicio si se supera umbral de intentos de conexión fallidos.
 
 ## Considered Options
 
