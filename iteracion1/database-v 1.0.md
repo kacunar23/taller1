@@ -1,6 +1,6 @@
 ---
 # These are optional elements. Feel free to remove any of them.
-Estado: { rejected }
+Estado: { deprecated }
 Fecha: { 2023-06-18 }
 Decisores: { Juan Carlos Peñaranda, Kevin Acuña, Jorge Franco, Sergio Silva }
 Consultores: { Juan Carlos Peñaranda, Kevin Acuña }
