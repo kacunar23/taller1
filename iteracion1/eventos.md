@@ -1,14 +1,14 @@
 ---
 # These are optional elements. Feel free to remove any of them.
-status: {proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)}
-date: {YYYY-MM-DD when the decision was last updated}
+status: {Proposed}
+date: {21 de Junio 2023}
 deciders: {list everyone involved in the decision}
 consulted: {list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication}
 informed: {list everyone who is kept up-to-date on progress; and with whom there is a one-way communication}
 ---
 # Eventos - Iteración 1 - Taller 1: Construcción de una arquitectura básica
 
-## Context and Problem Statement
+## Contexto
 
 Se pretende diseñar el software de una factoría inteligente compuesta por tres líneas de
 producción y más de 10 sensores IoT que proporcionan datos sobre el estado de los dispositivos
@@ -18,23 +18,15 @@ datos SQL.
 <!-- This is an optional element. Feel free to remove. -->
 ## Decision Drivers
 
-* Captura de información iot.
-* Almacenamiento de información capturada por los sensores.
-* Visualización en tiempo real del proceso productivo y ordenes de trabajo.
-* Administración de ordenes por operario y máquina.
-* Administración de inventario.
-* Configuración de secuencia entre tipología de sensores.
-* Algoritmo para optimización de volúmen de ordenes de trabajo.
-* Algoritmo para prediccion de fallos en líneas de producción y asignación de recursos de otras líneas.
-* Mecanismos de notificación de eventos con interfáz configurable.
-* Considerar dispositivo de operario fuera de servicio si se supera umbral de intentos de conexión fallidos.
+* Estilo dirigido por eventos (Event-Driven)
+
+![Texto alternativo](/Resources/BluePrint.png)
+
 
 ## Considered Options
 
-* {title of option 1}
-* {title of option 2}
-* {title of option 3}
-* … <!-- numbers of options can vary -->
+* No se han considerado opciones
+
 
 ## Decision Outcome
 
